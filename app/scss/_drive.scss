@@ -1,0 +1,87 @@
+.drive-now {
+  margin: 100px 0px;
+  padding: 58px 150px 155px;
+  background: $navy;
+  border-radius: 10px;
+  @media screen and (max-width: 768px) {
+    padding: 0 10px 155px;
+  }
+
+  .drive-now-title {
+    padding: 0 120px 60px;
+    justify-content: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    color: #ffffff;
+    @media screen and (max-width: 768px) {
+      font-size: 36px;
+      padding: 0 10px 60px;
+    }
+  }
+
+  .drive-container {
+    .search-cars {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: $white;
+      border-radius: 100px;
+      padding: 22px 95px;
+      max-width: 1096px;
+      @media screen and (max-width: 1140px) {
+        flex-direction: column;
+        border-radius: 6px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+      }
+
+      @media screen and (max-width: 991px) {
+      }
+
+      @media screen and (max-width: 767px) {
+      }
+
+      @media screen and (max-width: 480px) {
+        padding: 22px 22px;
+      }
+
+      @media screen and (max-width: 320px) {
+      }
+    }
+
+    .pick-up {
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      color: #000000;
+      @media screen and (max-width: 1140px) {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+
+    .selector-title {
+      padding-bottom: 7px;
+    }
+  }
+
+  .car-selector {
+    width: 100%;
+    padding: 15px 15px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: $grey;
+    border: 2px solid #bbc8d4;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}

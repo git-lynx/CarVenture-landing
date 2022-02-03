@@ -1,0 +1,23 @@
+.container-l {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-xl {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search-btn {
+  padding: 16px 10px;
+  background: $navy;
+  color: $white;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+}

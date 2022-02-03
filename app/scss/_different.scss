@@ -1,0 +1,100 @@
+.different {
+    padding: 0 0 282px;
+    .different-title {
+        display: flex;
+        justify-content: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 70px;
+        color: #000000;
+
+        @media screen and (max-width: 1200px) {
+            padding: 100px 20px 10px;
+            font-size: 36px;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 50px 5px 10px;
+            font-size: 36px;
+        }
+        @media screen and (max-width: 480px) {
+            padding: 30px 5px 10px;
+            font-size: 26px;
+        }
+    }
+
+    .different-desc {
+        padding: 15px 372px 100px;
+        display: flex;
+        justify-content: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.5;
+        @media screen and (max-width: 1320px) {
+            padding: 15px 302px 100px;
+        }
+        @media screen and (max-width: 1140px) {
+            padding: 15px 244px 100px;
+        }
+        @media screen and (max-width: 991px) {
+            padding: 15px 192px 100px;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 15px 44px 100px;
+        }
+        @media screen and (max-width: 320px) {
+            padding: 15px 5px 100px;
+        }
+    }
+
+    .different-container {
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 1200px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .different-card {
+        padding: 38px 32px 146px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        max-width: 318px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: 1200px) {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    .card-title {
+        padding: 62px 0 15px 0;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40px;
+        color: #000000;
+    }
+
+    .card-desc {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+    }
+}
